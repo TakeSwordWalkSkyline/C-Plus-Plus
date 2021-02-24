@@ -45,7 +45,7 @@ void beadSort(int *a, int len) {
 
 // driver function to test the algorithm
 int main() {
-    int a[] = {5, 3, 1, 7, 4, 1, 1, 20};
+    int a[] = {5, 3, 1, 7, 4, 1, 1, 20, 20};
     int len = sizeof(a) / sizeof(a[0]);
 
     beadSort(a, len);
